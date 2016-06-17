@@ -10,7 +10,7 @@ _{This page will help pick vacation destinations}_
 
 ## Setup/Installation Requirements
 
-* _open wiht http server
+* _open wiht http server link https://russvetsper.github.io/vacation-suggester
 
 
 ## UNFINISHED
