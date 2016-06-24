@@ -1,10 +1,10 @@
 $(document).ready(function() {
-
+$("#serving").submit(function(event){
 var location1 = $("input:radio[name=location1]:checked").val();
  if (location1 === "yes") {
- $("location1").show();
+ $("#locationOne").toggle();
  }else{
-  $("location2").show();  
+  $("#location2").show();
 
 
  }
@@ -15,5 +15,5 @@ var location1 = $("input:radio[name=location1]:checked").val();
 
  event.preventDefault();
 
- }
+});
 });
