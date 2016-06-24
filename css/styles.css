@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+}
+
+body {
+	cursor: pointer;
+}
+
+.btn {
+  display: block;
+}
+
+
+#locationOne, #location2, #location3, #location4 {
+  display:none;
+}
