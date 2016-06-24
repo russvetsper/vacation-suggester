@@ -1,11 +1,19 @@
 $(document).ready(function() {
 
-var question1 =$("input#question1").val();
- if (question1 === 0) {
-   $("question1").show();
+var location1 = $("input:radio[name=location1]:checked").val();
+ if (location1 === "yes") {
+ $("location1").show();
  }else{
-   $("question2").show();
+  $("location2").show();  
+
+
+ }
+
+
+
+
 
  event.preventDefault();
+
  }
 });
