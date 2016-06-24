@@ -1,39 +1,23 @@
 $(document).ready(function() {
 
+var sum1;
 
-
-
-  $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val();
-      if (person1Input ==="yes") {
-        $("cold").show()
-      }else{
-        $("beach").show();
-
-      }
-
-
-
-
-
-
-
-
-    var person2Input = $("input#person2").val();
-    var animalInput= $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
-
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
-
-  
-
-    event.preventDefault();
+  $("form").submit(function(event) {
+    var sum1 = $('form input[type=radio];checked').val();
+    sum1 = parseInt(input);
   });
+
+console.log('test');
+ if (sum1 === 0){
+  $("#location1").show();
+} else if (total === 1){
+  $("#location2").show();
+}
+
+  event.preventDefault();
+});
+});
+
+$(#pancake).click(function(){
+  alert("stay home!");
 });
