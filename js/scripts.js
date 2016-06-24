@@ -1,6 +1,24 @@
 $(document).ready(function() {
+
+
+
+
   $("#blanks form").submit(function(event) {
     var person1Input = $("input#person1").val();
+      if (person1Input ==="yes") {
+        $("cold").show()
+      }else{
+        $("beach").show();
+
+      }
+
+
+
+
+
+
+
+
     var person2Input = $("input#person2").val();
     var animalInput= $("input#animal").val();
     var exclamationInput = $("input#exclamation").val();
@@ -14,7 +32,7 @@ $(document).ready(function() {
     $(".verb").text(verbInput);
     $(".noun").text(nounInput);
 
-    $("#story").show();
+  
 
     event.preventDefault();
   });

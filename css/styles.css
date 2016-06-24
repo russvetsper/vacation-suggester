@@ -5,3 +5,12 @@ body {
 body {
 	cursor: cell;
 }
+
+.btn {
+  display: block;
+}
+
+
+#cold {
+  display:none;
+}
