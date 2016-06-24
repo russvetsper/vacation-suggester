@@ -6,7 +6,7 @@ var location3 = $("input:radio[name=location3]:checked").val();
 var location4 = $("input:radio[name=location4]:checked").val();
  if (location1 === "yes" || location2==="no" ||location3==="yes") {
  $("#locationOne").toggle();
- }else if(location2==="no" || location3==="yes"){
+ }else if(location2==="yes" || location3==="no"){
   $("#location2").show();
   $("#location3").show();
 
