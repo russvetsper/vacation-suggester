@@ -1,19 +1,11 @@
 $(document).ready(function() {
 
-var sum1;
+var question1 =$("input#question1").val();
+ if (question1 === 0) {
+   $("question1").show();
+ }else{
+   $("question2").show();
 
-  $("form").submit(function(event) {
-    var sum1 = $('form input[type=radio]:checked').val();
-    sum1 = parseInt(input);
-  });
-
-
- if (sum1 === 0){
-  $("#location1").show();
-} else if (total === 1){
-  $("#location2").show();
-}
-
-  event.preventDefault();
-});
+ event.preventDefault();
+ }
 });

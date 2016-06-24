@@ -3,7 +3,7 @@ body {
 }
 
 body {
-	cursor: cell;
+	cursor: pointer;
 }
 
 .btn {
@@ -11,6 +11,6 @@ body {
 }
 
 
-#location1, #location2, #location3, #location4, #location5 {
+#location1, #location2, #location3, #location4,  {
   display:none;
 }
